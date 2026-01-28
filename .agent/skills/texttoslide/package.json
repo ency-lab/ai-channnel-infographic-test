@@ -1,0 +1,14 @@
+{
+  "name": "texttoslide-skill",
+  "version": "1.0.0",
+  "description": "Text to Slide Conversion Skill - Convert text to Marp slides and generate image prompts",
+  "main": "texttoslide.js",
+  "scripts": {
+    "convert": "node texttoslide.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "dotenv": "^16.4.5",
+    "minimist": "^1.2.8"
+  }
+}
